@@ -144,6 +144,7 @@ export default {
                     this.resetForm();
                     this.$emit('requirement-created', response.data);
 
+                    // Close modal
                     const modalElement = document.getElementById('addRequirementModal');
                     const modalInstance = Modal.getInstance(modalElement);
                     if (modalInstance) {
