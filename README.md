@@ -41,15 +41,3 @@ Lints and fixes files:
 ```bash
 npm run lint
 ```
-
----
-
-## 4️⃣ Testing Credentials
-Use these credentials to test different roles (if using seeded/predefined data):
-
-| Role | Email | Password |
-|------|-------|----------|
-| **Admin** | `root@example.com` | `supersecretpassword` |
-| **Project Manager** | `pm@example.com` | `supersecretpassword` |
-| **HR Manager** | `hr@example.com` | `supersecretpassword` |
-| **Employee** | `employee@example.com` | `supersecretpassword` |
