@@ -2,10 +2,6 @@
   <div>
     <div class="card border-0 shadow-sm rounded-4">
       <div class="card-body p-0">
-        <p class="p-4 mb-0 text-secondary border-bottom">
-          Software update status, package versions, and a "Check for Updates" button.
-        </p>
-
         <div class="table-responsive">
           <table v-if="adminUpdatesData" class="table table-hover align-middle mb-0">
             <thead class="bg-light text-secondary">

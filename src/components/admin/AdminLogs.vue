@@ -2,9 +2,6 @@
   <div>
     <div class="card border-0 shadow-sm rounded-4">
       <div class="card-body p-0">
-        <p class="p-4 mb-0 text-secondary border-bottom">
-          A live-tailing log viewer (e.g., for application, system, or audit logs) would go here.
-        </p>
         <div class="table-responsive">
           <table class="table table-hover align-middle mb-0">
             <thead class="bg-light text-secondary">
