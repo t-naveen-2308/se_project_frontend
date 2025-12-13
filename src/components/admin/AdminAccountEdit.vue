@@ -81,9 +81,6 @@
             </div>
           </form>
         </div>
-        <div class="card-footer bg-light py-3 px-4 text-center small text-muted">
-          Changes take effect immediately after saving.
-        </div>
       </div>
     </div>
   </div>

@@ -2,9 +2,6 @@
   <div>
     <div class="card border-0 shadow-sm rounded-4 mb-4">
       <div class="card-body p-4">
-        <p class="text-secondary mb-4">
-          Admin profile information, password change form, and API key management.
-        </p>
         <div class="table-responsive">
           <table class="table table-hover align-middle mb-0">
             <thead class="bg-light text-secondary">
