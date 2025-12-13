@@ -33,7 +33,6 @@
         <div class="mb-3">
           <div class="d-flex justify-content-between align-items-center mb-2">
             <label for="password" class="form-label mb-0 fs-5 text-white">Password</label>
-            <a href="#" class="text-decoration-none" style="color: #93c5fd;">Forgot password?</a>
           </div>
 
           <div class="position-relative">

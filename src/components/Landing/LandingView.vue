@@ -20,7 +20,8 @@
         </p>
 
         <div class="d-flex align-items-center gap-2">
-          <router-link :to="{ name: 'Login' }" class="btn btn-primary custom-btn fw-semibold px-3 py-2">Get Started</router-link>
+          <router-link :to="{ name: 'Login' }" class="btn btn-primary custom-btn fw-semibold px-3 py-2">Get
+            Started</router-link>
           <a href="#features" class="btn btn-outline-light fw-semibold px-3 py-2"
             style="border-color: rgba(255,255,255,0.12);">Learn More</a>
         </div>
@@ -29,45 +30,68 @@
 
     <section id="features" class="py-5 px-4 text-white">
       <div class="container-fluid">
-        <div class="row justify-content-center g-5">
-          <div class="col-lg-5 col-md-6 d-flex flex-column align-items-center">
-            <h2 class="fw-bold mb-4 text-center" style="color: #e2e8ff;">For HR Manager</h2>
-            <div class="d-flex gap-3 flex-wrap justify-content-center">
-              <div class="feature-card p-4 rounded-4 text-center"
-                style="width: 240px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
-                <h3 class="h5 text-white mb-2">AI-Powered Skill Matching</h3>
-                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.5;">
-                  Use a GenAI assistant to analyze employee skill sets and recommend optimal project allocations for
-                  data-driven staffing decisions.
+        <div class="row justify-content-center g-4">
+          <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+            <h2 class="fw-bold mb-4 text-center" style="color: #e2e8ff;">For HR</h2>
+            <div class="d-flex flex-column gap-3 w-100 align-items-center">
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">HR Policy Management</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                  Create, update, and publish HR policies that are instantly accessible to employees via the platform
+                  and chatbot.
                 </p>
               </div>
-              <div class="feature-card p-4 rounded-4 text-center"
-                style="width: 240px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
-                <h3 class="h5 text-white mb-2">Automated Performance Summaries</h3>
-                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.5;">
-                  Automatically generate performance summaries using GenAI to deliver personalized feedback and identify
-                  training needs efficiently.
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">Performance Reviews & Feedback</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                  Manage employee performance reviews and generate structured summaries to support appraisal and
+                  evaluation workflows.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-6 d-flex flex-column align-items-center">
-            <h2 class="fw-bold mb-4 text-center" style="color: #e2e8ff;">For Employees</h2>
-            <div class="d-flex gap-3 flex-wrap justify-content-center">
-              <div class="feature-card p-4 rounded-4 text-center"
-                style="width: 240px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
-                <h3 class="h5 text-white mb-2">HR Chatbot Assistance</h3>
-                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.5;">
-                  Get instant answers to HR-related queries (like leave, WFH, travel policies) via a GenAI chatbot—no
-                  need to wait for your manager.
+          <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+            <h2 class="fw-bold mb-4 text-center" style="color: #e2e8ff;">For Product Manager</h2>
+            <div class="d-flex flex-column gap-3 w-100 align-items-center">
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">Intelligent Team Allocation</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                  Leverage GenAI to analyze skills, workload, and availability to build balanced, high-performing teams
+                  for every project.
                 </p>
               </div>
-              <div class="feature-card p-4 rounded-4 text-center"
-                style="width: 240px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
-                <h3 class="h5 text-white mb-2">Personalized Learning Paths</h3>
-                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.5;">
-                  Receive GenAI-driven recommendations for skill development and courses tailored to your career growth.
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">Automated Reports & Insights</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                  Generate daily progress reports, performance insights, and client updates automatically—so you focus
+                  on delivery, not documentation.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+            <h2 class="fw-bold mb-4 text-center" style="color: #e2e8ff;">For Employee</h2>
+            <div class="d-flex flex-column gap-3 w-100 align-items-center">
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">Employee Dashboard</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                  Access a personalized dashboard showing assigned projects, requests, learning resources, and HR
+                  updates in one place.
+                </p>
+              </div>
+              <div class="feature-card p-4 rounded-4"
+                style="width: 100%; max-width: 360px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(6px);">
+                <h3 class="h5 text-white mb-2 text-center">HR FAQ & Policy Access</h3>
+                <p class="small mb-0" style="color: #f0f0ff; line-height: 1.6; text-align: justify;">
+                 Get instant answers to HR questions using the integrated HR chatbot, without waiting for manual HR
+                  responses.
                 </p>
               </div>
             </div>
